@@ -22,7 +22,7 @@ OpenCV was used as hand detector, we created a database consisting of 2000 image
 A keras model was used as a classifier. we train a simple model on 85% of the data and validate it on 15%.
 
 # Training and Performance
-The model is trained with TensorFlow backend using a  NVIDIA GeForce for 14 epochs using batches of 50 images each. The training input are not augmented, Augmentation techniques could improve the performance of this model.
+The model is trained with TensorFlow backend using a  NVIDIA GeForce 950M for 14 epochs using batches of 50 images each. The training input are not augmented, Augmentation techniques could improve the performance of this model.
 A Testing performance of greater than 99% accuracy is achieved.
 
 Model Learning loss and Accuracy is shown below
